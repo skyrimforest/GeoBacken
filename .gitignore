@@ -1,0 +1,7 @@
+# 忽略loginfo文件夹下的文件
+loginfo/
+# 忽略offlinemap下的文件夹
+offlinemap/
+tcptest.py
+
+
