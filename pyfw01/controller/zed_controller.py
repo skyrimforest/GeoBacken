@@ -3,7 +3,7 @@ from fastapi import APIRouter
 from fastapi.responses import FileResponse
 from SkyLogger import get_logger
 from service import zed_service
-from schema.all_schema import CommandInfo
+from schema.all_schema import PureInfo
 from starlette.background import BackgroundTasks
 
 router = APIRouter(
@@ -12,7 +12,7 @@ router = APIRouter(
     responses={404: {"description": "Not found"}}
 )
 
-logger = get_logger("script")
+logger = get_logger("zed")
 
 # 测试组件
 @router.post("/")

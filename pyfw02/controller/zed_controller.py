@@ -3,7 +3,6 @@ from fastapi import APIRouter
 from fastapi.responses import FileResponse
 from SkyLogger import get_logger
 from service import zed_service
-from schema.all_schema import CommandInfo
 from starlette.background import BackgroundTasks
 
 router = APIRouter(
@@ -19,7 +18,12 @@ logger = get_logger("script")
 async def test_users():
     return [{"child_api_status":"ok"}]
 
+# 测试组件
+@router.post("/")
+async def do_zed():
 
+
+    return [{"child_api_status":"ok"}]
 
 
 

@@ -6,9 +6,13 @@ import uvicorn
 import argparse
 # 引入路由控件
 from controller import child_controller
+from controller import zed_controller
+# 引入基本配置
+import BaseConfig
 
 app = FastAPI()
 app.include_router(child_controller.router)
+app.include_router(zed_controller.router)
 # 接收环境变量
 def parse_args():
     parser = argparse.ArgumentParser(description="Run FastAPI server")
@@ -27,11 +31,9 @@ def parse_args():
 async def root():
     return {"message": "Hello World"}
 
-
 @app.get("/hello/{name}")
 async def say_hello(name: str):
     return {"message": f"Hello {name}"}
-
 
 # 功能状态机:
 #   系统启动
@@ -39,8 +41,12 @@ async def say_hello(name: str):
 #   ->服务阶段,完成正常的服务需求
 #   ->停止阶段,系统正常关闭,持久化记录本次事务
 
+@app.on_event("startup")
+async def startup_event():
+    BaseConfig.ARGS=parse_args()
+
 if __name__ == '__main__':
-    args = parse_args()
-    uvicorn.run("main:app", host=args.host, port=args.port, reload=True)
+    BaseConfig.ARGS=parse_args()
+    uvicorn.run("main:app", host=BaseConfig.ARGS.host, port=BaseConfig.ARGS.port)
 
 

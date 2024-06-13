@@ -1,10 +1,8 @@
 
 from fastapi import APIRouter
-from fastapi.responses import FileResponse
 from SkyLogger import get_logger
-from service import parent_service
-from schema.all_schema import CommandInfo
-from starlette.background import BackgroundTasks
+from schema.all_schema import ChildInfo,PureInfo
+import BaseConfig
 
 router = APIRouter(
     prefix="/parent",
@@ -19,6 +17,11 @@ logger = get_logger("parent")
 async def test_users():
     return [{"parent_api_status":"ok"}]
 
+@router.post("/recvinfo")
+async def recv_info(someinfo:PureInfo):
+    print(someinfo)
+    print(BaseConfig.ARGS)
+    return {"parent_recvinfo_status":"ok"}
 
 
 

@@ -1,0 +1,7 @@
+06/12-22:15:33 - child_service.py[67] - INFO - info sent to all 1 child
+06/12-22:16:44 - child_service.py[67] - INFO - info sent to all 1 child
+06/12-22:17:46 - child_service.py[67] - INFO - info sent to all 1 child
+06/12-22:18:00 - child_service.py[67] - INFO - info sent to all 1 child
+06/12-22:18:02 - child_service.py[79] - INFO - sent done [{"parent_api_status":"ok"}]
+06/12-22:18:34 - child_service.py[67] - INFO - info sent to all 1 child
+06/12-22:18:36 - child_service.py[79] - INFO - sent done {"parent_recvinfo_status":"ok"}
