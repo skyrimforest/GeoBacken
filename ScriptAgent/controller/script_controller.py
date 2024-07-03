@@ -1,6 +1,5 @@
 
 from fastapi import APIRouter
-from fastapi.responses import FileResponse
 from SkyLogger import get_logger
 from service import script_service
 from schema.all_schema import CommandInfo
@@ -16,7 +15,8 @@ logger = get_logger("script")
 
 # 测试组件
 @router.post("/")
-async def test_users():
+async def test_users(ci:CommandInfo):
+    print(ci.command)
     return [{"username": "Rick"}, {"username": "Morty"}]
 
 # 运行脚本
@@ -27,5 +27,9 @@ async def run_script(ci:CommandInfo,background_task:BackgroundTasks):
         "success":"执行开始",
     }
 
-
+# 查询并获取指令
+@router.get("/getscript")
+async def get_script():
+    script_list=script_service.get_script("config")
+    return script_list
 

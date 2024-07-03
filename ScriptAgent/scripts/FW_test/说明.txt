@@ -1,0 +1,118 @@
+师弟，这个是用来测试的程序，现命名FW_TEST，后续打算命名FW
+
+一打开里面有三个文件夹，分别对应三种模式
+
+Custom(定制干扰模式)
+Normal(正常频段干扰模式)
+Sweep（扫频干扰模式）
+
+其中Sweep扫频干扰模式是咱们最主要用的，但是其他模式为了扩展，也得麻烦师弟做一下其他模式的接口
+
+下面是各模式里具体的程序划分
+
+先说最主要的Sweep，这里面又分为4个文件夹：
+High（高功率）Upper-Medium（中高）Lower-Medium（中低）   Low（低功率）一共四挡，当然各文件夹里面的文件名都是一样的
+
+到时依据想使用的功率大小来选择文件夹，比如高功率使用SIN_400M.py、然后同时低功率使用SIN_1400M.py
+
+这里有一个互斥关系，因为一共只有4台软件无线电设备，每台设备只有两个口，两个口单独仅一个运行时用SIN_XXXX，想两个口都用需用DOU_XXXX
+
+互斥关系表：
+
+SIN_400M与SIN_900M，不可同时用，想两者都用只能用DOU_400M_900M.py，也就是说这三个程序在实际使用时，同一时间段只能使用一个。
+
+SIN_1400M与SIN_1500M、DOU_1500M_1400M.py同理
+
+SIN_5800M与SIN_5200M、DOU_5800M_5200M.py同理
+
+Sweep里单个文件夹里可运行的有：（其中有一些不是能运行的main文件，因此把能运行的main文件都列在此处）
+
+SIN_400M.py
+SIN_900M.py
+DOU_900M_400M.py
+
+SIN_1400M.py
+SIN_1500M.py
+DOU_1500M_1400M.py
+
+SIN_5800M.py
+SIN_5200M.py
+DOU_5800M_5200M.py
+
+SIN_2400M.py
+
+运行示例：（开启虚拟环境 conda activate radioconda）
+		python SIN_400M.py 
+        python DOU_1500M_1400M.py（这个模式没有像后面CUSTOM模式的参数输入）
+
+
+Sweep模式结束，咱们来说Custom模式，这个模式可通过参数，自定义python程序中参数，Custom就只有他一个文件夹了，我就没扯功率那些
+
+各频段互斥关系和Sweep模式一样
+
+Custom里可运行的有
+
+CUSTOM_400M.py
+CUSTOM_900M.py
+CUSTOM_900M_400M.py
+
+CUSTOM_1400M.py
+CUSTOM_1500M.py
+CUSTOM_1500M_1400M.py
+
+CUSTOM_5800M.py
+CUSTOM_5200M.py
+CUSTOM_5800M_5200M.py
+
+CUSTOM_2400M.py
+
+运行示例：（开启虚拟环境 conda activate radioconda）
+（注意：这个里的运行格式有区分了，输入参数个数是不一定的，有两个，有四个的）
+python CUSTOM_400M.py  --START-1 数 --END-1 数（比如python CUSTOM_400M.py --START-1 430000000 --END-1 460000000）
+python CUSTOM_900M.py  --START-1 数 --END-1 数
+python CUSTOM_900M_400M.py  --START-1 数 --END-1 数 --START-2 数 --END-2 数
+（比如python CUSTOM_900M_400M.py  --START-1 850000000 --END-1 900000000 --START-2 430000000 --END-2 430500000）
+
+
+最后一个模式，Normal模式，这个模式最简单了，里面就四个可运行文件，因此也没有互斥关系，也不需要参数输入
+
+可运行的有：
+
+NOR_900M.py
+NOR_1400M.py
+NOR_2400M.py
+NOR_5800M.py
+
+运行示例：（开启虚拟环境 conda activate radioconda）
+
+python NOR_400M.py即可
+
+
+
+这三个模式，师弟默认使用Sweep模式就行，可根据终端要求的频段以及功率大小来选择文件夹里的文件，
+其他两个模式接口做好就行，能调用成功就OK，留个if end换模式框架就行，到时候如果真的要根据不同情况换模式了的话，换模式程序我再自己加条件，哈哈
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
