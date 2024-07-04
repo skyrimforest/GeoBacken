@@ -1,5 +1,6 @@
 # 引入http网口规范
 from fastapi import FastAPI
+from fastapi.middleware.cors import CORSMiddleware
 # 引入服务器
 import uvicorn
 # 引入命令行参数读取
@@ -9,6 +10,20 @@ from controller import script_controller
 
 app = FastAPI()
 app.include_router(script_controller.router)
+
+# 处理cors问题
+origins=[
+    "*",
+]
+
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=origins,
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
+
 # 接收环境变量
 def parse_args():
     parser = argparse.ArgumentParser(description="Run FastAPI server")

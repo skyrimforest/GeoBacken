@@ -1,40 +1,53 @@
 # 此处进行脚本文件的配置
 
+# 此处进行脚本文件的配置
+
 config:
-  directory: FW_test
-  child:
-    custom:
-      - files:
-          CUSTOM_400M.py
-          CUSTOM_900M.py
-          CUSTOM_900M_400M.py
-          CUSTOM_1400M.py
-          CUSTOM_1500M.py
-          CUSTOM_1500M_1400M.py
-          CUSTOM_5800M.py
-          CUSTOM_5200M.py
-          CUSTOM_5800M_5200M.py
-          CUSTOM_2400M.py
-    normal:
-      - files:
-          NOR_900M.py
-          NOR_1400M.py
-          NOR_2400M.py
-          NOR_5800M.py
-    sweep:
-      - directory:
-          High
-          Low
-          Lower-Medium
-          Upper-Medium
-      - files:
-          SIN_400M.py
-          SIN_900M.py
-          DOU_900M_400M.py
-          SIN_1400M.py
-          SIN_1500M.py
-          DOU_1500M_1400M.py
-          SIN_5800M.py
-          SIN_5200M.py
-          DOU_5800M_5200M.py
-          SIN_2400M.py
+  root: My_test
+  patterns:
+    - pattern:
+        dirname: pattern01
+        name: 模式1
+        power:
+        commands:
+          - command:
+              config:
+                - end
+                - numbers
+              files:
+                - mytest.py
+                - mynettest.py
+          - command:
+              config:
+                -
+              files:
+                - mytest.py
+                - mynettest.py
+
+
+    - pattern:
+        dirname: pattern02
+        name: 模式2
+        power:
+        commands:
+          - command:
+              config:
+                -
+              files:
+                - mytest.py
+
+
+    - pattern:
+        dirname: pattern03
+        name: 模式3
+        power:
+          - power01
+          - power02
+        commands:
+          - command:
+              config:
+                -
+              files:
+                - mytest.py
+
+

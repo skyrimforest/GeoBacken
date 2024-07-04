@@ -22,7 +22,15 @@ async def test_users(ci:CommandInfo):
 # 运行脚本
 @router.post("/runscript")
 async def run_script(ci:CommandInfo,background_task:BackgroundTasks):
-    background_task.add_task(script_service.run_script,ci)
+    background_task.add_task(script_service.get_script_process,ci)
+    return {
+        "success":"执行开始",
+    }
+
+# 运行脚本
+@router.post("/stopscript")
+async def stop_script(ci:CommandInfo,background_task:BackgroundTasks):
+    background_task.add_task(script_service.stop_script,ci)
     return {
         "success":"执行开始",
     }
@@ -30,6 +38,6 @@ async def run_script(ci:CommandInfo,background_task:BackgroundTasks):
 # 查询并获取指令
 @router.get("/getscript")
 async def get_script():
-    script_list=script_service.get_script("config")
+    script_list=script_service.get_script("config_test")
     return script_list
 
