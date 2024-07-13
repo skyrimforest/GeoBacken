@@ -1,4 +1,5 @@
 # 该文件用于与板卡建立tcp连接并传输数据
+# 该文件作为一个简单的客户端
 import socket
 
 # 具体思路为对传输的数据进行关键字分割,之后就可以获取每条信息
@@ -38,6 +39,25 @@ def get_server_info(cli_socket,info="start"):
     except:
         return {"success":False}
 
+# 获取信息
+def get_server_info_and_cut(cli_socket,info="start"):
+    print("开始发送")
+    try:
+        cli_socket.send(info.encode())
+
+        # 获取一整段消息后做切分
+        data_bytes=cli_socket.recv(2048)
+        real_data=data_bytes.decode()
+
+        print(real_data)
+        data_list=real_data.split('@')
+        print(data_list)
+        return {"success":True,
+                "data":real_data}
+    except Exception as e:
+        print(e)
+        return {"success":False}
+
 # 关闭
 def close_socket(cli_socket):
     cli_socket.close()
@@ -46,6 +66,6 @@ def close_socket(cli_socket):
 if __name__ == '__main__':
     my_socket = get_client_socket()
     if my_socket:
-        connect_to_server(my_socket,("127.0.0.1",2333))
-        get_server_info(my_socket)
+        connect_to_server(my_socket,("127.0.0.1",8001))
+        get_server_info_and_cut(my_socket)
         close_socket(my_socket)
