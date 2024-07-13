@@ -17,10 +17,10 @@ app.include_router(zed_controller.router)
 def parse_args():
     parser = argparse.ArgumentParser(description="Run FastAPI server")
     parser.add_argument(
-        "--host", type=str, default="0.0.0.0", help="Host to bind"
+        "--host", type=str, default=BaseConfig.HOST_IP, help="Host to bind"
     )
     parser.add_argument(
-        "--port", type=int, default=10000, help="Port to bind"
+        "--port", type=int, default=BaseConfig.HOST_PORT, help="Port to bind"
     )
     parser.add_argument(
         "--venv", type=str, default="pureFast", help="Virtual environment to use"
@@ -43,10 +43,9 @@ async def say_hello(name: str):
 
 @app.on_event("startup")
 async def startup_event():
-    BaseConfig.ARGS=parse_args()
+    pass
 
 if __name__ == '__main__':
-    BaseConfig.ARGS=parse_args()
-    uvicorn.run("main:app", host=BaseConfig.ARGS.host, port=BaseConfig.ARGS.port)
+    uvicorn.run("main:app", host=BaseConfig.HOST_IP, port=BaseConfig.HOST_PORT)
 
 

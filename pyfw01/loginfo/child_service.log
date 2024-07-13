@@ -5,3 +5,88 @@
 06/12-22:18:02 - child_service.py[79] - INFO - sent done [{"parent_api_status":"ok"}]
 06/12-22:18:34 - child_service.py[67] - INFO - info sent to all 1 child
 06/12-22:18:36 - child_service.py[79] - INFO - sent done {"parent_recvinfo_status":"ok"}
+07/12-16:55:17 - child_service.py[38] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-16:55:27 - child_service.py[38] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-16:55:37 - child_service.py[38] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-16:57:37 - child_service.py[38] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-16:57:47 - child_service.py[38] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-17:12:41 - child_service.py[44] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-17:12:51 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.007135 age, now it's refreshed.
+07/12-17:13:01 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.008803 age, now it's refreshed.
+07/12-17:17:18 - child_service.py[44] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-17:17:28 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005582 ago, now it's refreshed.
+07/12-17:17:38 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004676 ago, now it's refreshed.
+07/12-17:17:48 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003788 ago, now it's refreshed.
+07/12-17:17:54 - child_service.py[71] - INFO - info sent to all 1 child
+07/12-17:17:58 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004471 ago, now it's refreshed.
+07/12-17:18:08 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003572 ago, now it's refreshed.
+07/12-17:18:18 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004014 ago, now it's refreshed.
+07/12-17:18:28 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003585 ago, now it's refreshed.
+07/12-17:18:38 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005417 ago, now it's refreshed.
+07/12-17:18:48 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003469 ago, now it's refreshed.
+07/12-17:18:58 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.006941 ago, now it's refreshed.
+07/12-17:19:08 - child_service.py[44] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-17:19:18 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005471 ago, now it's refreshed.
+07/12-17:19:22 - child_service.py[71] - INFO - info sent to all 1 child
+07/12-17:19:28 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005080 ago, now it's refreshed.
+07/12-17:19:38 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003565 ago, now it's refreshed.
+07/12-17:19:48 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003402 ago, now it's refreshed.
+07/12-17:19:58 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004590 ago, now it's refreshed.
+07/12-17:20:07 - child_service.py[72] - INFO - info sent to all 0 child
+07/12-17:20:08 - child_service.py[44] - INFO - BELLLINA@192.168.227.1:10001 registered
+07/12-17:20:18 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003928 ago, now it's refreshed.
+07/12-17:20:28 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005502 ago, now it's refreshed.
+07/12-17:20:32 - child_service.py[72] - INFO - info sent to all 1 child
+07/12-17:20:38 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004399 ago, now it's refreshed.
+07/12-17:20:48 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004591 ago, now it's refreshed.
+07/12-17:20:58 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003834 ago, now it's refreshed.
+07/12-17:21:08 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003742 ago, now it's refreshed.
+07/12-17:21:27 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:18.723451 ago, now it's refreshed.
+07/12-17:21:37 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.006725 ago, now it's refreshed.
+07/12-17:21:47 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004179 ago, now it's refreshed.
+07/12-17:21:57 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003991 ago, now it's refreshed.
+07/12-17:22:07 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005123 ago, now it's refreshed.
+07/12-17:22:17 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003694 ago, now it's refreshed.
+07/12-17:22:27 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003678 ago, now it's refreshed.
+07/12-17:22:37 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003167 ago, now it's refreshed.
+07/12-17:22:52 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:15.231158 ago, now it's refreshed.
+07/12-17:23:12 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:19.198575 ago, now it's refreshed.
+07/12-17:23:31 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:19.388637 ago, now it's refreshed.
+07/12-17:23:41 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004651 ago, now it's refreshed.
+07/12-17:23:51 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004782 ago, now it's refreshed.
+07/12-17:24:01 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003231 ago, now it's refreshed.
+07/12-17:24:11 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.006767 ago, now it's refreshed.
+07/12-17:24:21 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.008036 ago, now it's refreshed.
+07/12-17:24:31 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004252 ago, now it's refreshed.
+07/12-17:24:41 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005508 ago, now it's refreshed.
+07/12-17:25:00 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:18.698325 ago, now it's refreshed.
+07/12-17:25:10 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.004517 ago, now it's refreshed.
+07/12-17:25:20 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.003761 ago, now it's refreshed.
+07/12-17:26:55 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:01:35.408519 ago, now it's refreshed.
+07/12-17:27:05 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.005287 ago, now it's refreshed.
+07/12-17:27:15 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.009172 ago, now it's refreshed.
+07/12-17:27:25 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.007770 ago, now it's refreshed.
+07/12-17:27:35 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.006048 ago, now it's refreshed.
+07/12-17:27:45 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.012563 ago, now it's refreshed.
+07/12-17:27:55 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.006585 ago, now it's refreshed.
+07/12-17:28:05 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.020586 ago, now it's refreshed.
+07/12-17:28:15 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.017227 ago, now it's refreshed.
+07/12-17:28:25 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.023103 ago, now it's refreshed.
+07/12-17:28:35 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.008636 ago, now it's refreshed.
+07/12-17:28:45 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.015053 ago, now it's refreshed.
+07/12-17:28:55 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.008150 ago, now it's refreshed.
+07/12-17:29:05 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.016048 ago, now it's refreshed.
+07/12-17:29:15 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.020478 ago, now it's refreshed.
+07/12-17:29:25 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.017814 ago, now it's refreshed.
+07/12-17:29:35 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.009721 ago, now it's refreshed.
+07/12-17:29:45 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.021964 ago, now it's refreshed.
+07/12-17:29:55 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.019025 ago, now it's refreshed.
+07/12-17:30:05 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.012364 ago, now it's refreshed.
+07/12-17:30:15 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.015139 ago, now it's refreshed.
+07/12-17:30:25 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.011376 ago, now it's refreshed.
+07/12-17:30:35 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.008764 ago, now it's refreshed.
+07/12-17:30:45 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.023255 ago, now it's refreshed.
+07/12-17:30:56 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.020138 ago, now it's refreshed.
+07/12-17:31:06 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.014690 ago, now it's refreshed.
+07/12-17:31:16 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.015618 ago, now it's refreshed.
+07/12-17:31:26 - child_service.py[50] - INFO - BELLLINA@192.168.227.1:10001 updated 0:00:10.018478 ago, now it's refreshed.

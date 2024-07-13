@@ -9,3 +9,11 @@ LOG_PATH=ROOT_DIR+'/loginfo'
 ARGS=None
 # 本机名称
 HOST_NAME=socket.gethostname()
+# 自己的IP
+HOST_IP=socket.gethostbyname(HOST_NAME)
+# 自己的PROT
+HOST_PORT=10001
+# 父节点IP
+PARENT_IP='192.168.227.1'
+# 父节点PROT
+PARENT_PORT=10000

@@ -1,10 +1,9 @@
 import BaseConfig
 
-PREFIX='http://' + BaseConfig.DISPATCHER_IP + ':' + BaseConfig.DISPATCHER_PORT
-# PREFIX='http://' + 'localhost' + ':' + BaseConfig.DISPATCHER_PORT
+PREFIX='http://' + BaseConfig.PARENT_IP + ':' + str(BaseConfig.PARENT_PORT)
 
 API={
-    'detectinfo': '/collector/detectinfo'
+    'register': '/child/register'
 }
 
 for item in API:

@@ -1,33 +1,15 @@
-# import requests
-#
-#
-# if __name__ == '__main__':
-#
-#     data={
-#         "info":{
-#             "hello":"233",
-#             "test":"haha",
-#         }
-#     }
-#     requests.post("http://192.168.0.104:10000/child/sendinfo",json=data)
+import requests
+import datetime
 
-class testClass:
-    classTemp=1
-    def __init__(self):
-        self.temp=1
+if __name__ == '__main__':
+    # print(datetime.datetime.now())
+    data={
+        "info":{
+            "hello":"233",
+            "test":"haha",
+        }
+    }
+    requests.post("http://192.168.227.1:10000/child/sendinfo",json=data)
 
-    @classmethod
-    def classMethod(cls):
-        print(cls.classTemp)
-
-    @staticmethod
-    def staticMethod():
-        print(233)
-
-
-testInstance=testClass()
-testInstance.classMethod()
-testInstance.staticMethod()
-print(testInstance.classTemp)
 
 

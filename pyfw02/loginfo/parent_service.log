@@ -1,0 +1,381 @@
+07/12-16:57:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-16:57:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:08:33 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:08:45 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:08:57 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:09:09 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:09:21 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:09:33 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:09:45 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:09:57 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:10:09 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:10:22 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:10:34 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:10:46 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:10:58 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:11:10 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:11:22 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:11:34 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:11:46 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:11:58 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:12:10 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:12:41 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:12:51 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:13:01 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:13:13 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:13:25 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:13:37 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:13:49 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:14:01 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:14:13 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:14:25 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:14:37 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:14:49 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:15:01 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:15:13 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:15:25 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:15:37 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:15:49 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:17:18 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:17:28 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:17:38 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:17:48 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:17:58 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:08 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:18 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:28 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:38 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:48 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:18:58 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:08 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:18 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:28 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:38 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:48 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:19:58 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:08 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:18 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:28 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:38 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:48 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:20:58 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:21:08 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:21:27 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:21:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:21:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:21:57 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:22:07 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:22:17 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:22:27 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:22:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:22:52 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:23:12 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:23:31 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:23:41 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:23:51 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:24:01 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:24:11 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:24:21 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:24:31 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:24:41 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:25:00 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:25:10 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:25:20 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:26:55 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:05 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:15 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:25 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:35 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:45 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:27:55 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:05 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:15 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:25 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:35 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:45 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:28:55 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:05 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:15 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:25 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:35 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:45 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:29:55 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:05 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:15 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:25 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:35 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:45 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:30:56 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:31:06 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:31:16 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:31:26 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/12-17:40:07 - parent_service.py[27] - INFO - <!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+07/12-17:40:12 - parent_service.py[27] - INFO - <!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+07/12-17:40:17 - parent_service.py[27] - INFO - <!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+07/12-17:40:23 - parent_service.py[27] - INFO - <!doctype html>
+<html>
+<head>
+    <title>Example Domain</title>
+
+    <meta charset="utf-8" />
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <style type="text/css">
+    body {
+        background-color: #f0f0f2;
+        margin: 0;
+        padding: 0;
+        font-family: -apple-system, system-ui, BlinkMacSystemFont, "Segoe UI", "Open Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
+        
+    }
+    div {
+        width: 600px;
+        margin: 5em auto;
+        padding: 2em;
+        background-color: #fdfdff;
+        border-radius: 0.5em;
+        box-shadow: 2px 3px 7px 2px rgba(0,0,0,0.02);
+    }
+    a:link, a:visited {
+        color: #38488f;
+        text-decoration: none;
+    }
+    @media (max-width: 700px) {
+        div {
+            margin: 0 auto;
+            width: auto;
+        }
+    }
+    </style>    
+</head>
+
+<body>
+<div>
+    <h1>Example Domain</h1>
+    <p>This domain is for use in illustrative examples in documents. You may use this
+    domain in literature without prior coordination or asking for permission.</p>
+    <p><a href="https://www.iana.org/domains/example">More information...</a></p>
+</div>
+</body>
+</html>
+
+07/12-17:41:10 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:41:20 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:41:30 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:41:40 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:41:50 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:00 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:10 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:20 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:30 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:40 - parent_service.py[29] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:42:51 - parent_service.py[27] - INFO - 
+07/12-17:43:01 - parent_service.py[30] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:43:11 - parent_service.py[30] - INFO - 主节点未上线或出现问题,请确认...
+07/12-17:43:21 - parent_service.py[30] - INFO - 主节点未上线或出现问题,请确认...
+07/13-11:12:30 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:12:40 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:12:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:12:57 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:07 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:17 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:27 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:13:57 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:07 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:17 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:27 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:14:57 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:07 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:17 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:27 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:37 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:47 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:15:57 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:07 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:09 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:19 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:29 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:38 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:43 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:16:53 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:03 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:13 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:23 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:33 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:43 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:17:53 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:03 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:13 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:23 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:33 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:43 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:18:53 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:03 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:13 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:23 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:33 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:43 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:19:53 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:20:03 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:20:13 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:20:23 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:22:59 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:09 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:19 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:29 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:39 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:49 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:23:59 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:09 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:19 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:29 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:39 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:49 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:24:59 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:25:09 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:25:19 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:25:29 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:25:39 - parent_service.py[27] - INFO - {"child_register_status":"ok"}
+07/13-11:25:49 - parent_service.py[27] - INFO - {"child_register_status":"ok"}

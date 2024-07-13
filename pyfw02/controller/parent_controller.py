@@ -20,7 +20,6 @@ async def test_users():
 @router.post("/recvinfo")
 async def recv_info(someinfo:PureInfo):
     print(someinfo)
-    print(BaseConfig.ARGS)
     return {"parent_recvinfo_status":"ok"}
 
 

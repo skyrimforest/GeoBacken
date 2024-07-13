@@ -1,6 +1,5 @@
 import os
 import socket
-import uuid
 
 ROOT_DIR = os.path.abspath(os.path.join(os.path.dirname(os.path.abspath(__file__)),'..'))
 
@@ -10,4 +9,7 @@ LOG_PATH=ROOT_DIR+'/loginfo'
 ARGS=None
 # 本机名称
 HOST_NAME=socket.gethostname()
-UUID=str(uuid.uuid4())
+# 自己的IP
+HOST_IP=socket.gethostbyname(HOST_NAME)
+# 自己的PROT
+HOST_PORT=10000

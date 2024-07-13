@@ -31,8 +31,8 @@ def run_script(ci: CommandInfo):
 
 def get_script_process(ci: CommandInfo):
     script_target = get_script_name(ci)
+    print(ci)
     arg_list = []
-
     for item in ci.arguments:
         res = item.items()
         for key, value in res:
@@ -40,10 +40,10 @@ def get_script_process(ci: CommandInfo):
             if type(value) is list:
                 for v in value:
                     arg_list.append(str(v))
-            if type(value) is int:
+            if type(value) is int or type(value) is str:
                 arg_list.append(str(value))
     command = ["python", script_target] + arg_list
-
+    print(command)
     result = subprocess.Popen(command, start_new_session=True, )
     print(result.pid)
     global processList

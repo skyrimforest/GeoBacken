@@ -39,10 +39,16 @@ async def child_send_info(info:PureInfo,bt:BackgroundTasks):
 @router.post("/getinfo")
 async def get_child_info(info:PureInfo):
     try:
-        child_service.send_info_child(info)
+        print(info)
         return {"child_sendinfo_status":"ok"}
     except:
         return {"child_sendinfo_status":"fail"}
 
-
-
+# 展示子节点
+@router.post("/show")
+async def show_child_info():
+    try:
+        print(child_service.child_dict)
+        return {"child_register_status":"ok"}
+    except :
+        return {"child_register_status":"fail"}
